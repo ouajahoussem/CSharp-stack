@@ -21,7 +21,7 @@ bool[] booleanArray = new bool[10];
 for (int i = 0; i < booleanArray.Length; i++)
 {
     booleanArray[i] = i % 2 == 0;
-    System.Console.WriteLine($"{i}-{booleanArray[i]}"); // Assign true for even indices, false for odd indices
+    System.Console.WriteLine($"{i}-{booleanArray[i]}"); 
 }
 
 // List of Flavors
@@ -49,10 +49,8 @@ System.Console.WriteLine("lenght of ice cream flavors is " + iceCreamFlavors.Cou
 // User Dictionary
 Dictionary<string, string> nameFlavorPairs = new Dictionary<string, string>();
 
-// Random object for selecting flavors randomly
 Random rand = new Random();
 
-// Fill the dictionary with name-flavor pairs
 foreach (string name in array2)
 {
     int randomIndex = rand.Next(0, iceCreamFlavors.Count);
