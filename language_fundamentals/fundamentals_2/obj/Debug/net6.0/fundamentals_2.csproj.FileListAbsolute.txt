@@ -1,0 +1,15 @@
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\fundamentals_2\bin\Debug\net6.0\fundamentals_2.exe
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\fundamentals_2\bin\Debug\net6.0\fundamentals_2.deps.json
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\fundamentals_2\bin\Debug\net6.0\fundamentals_2.runtimeconfig.json
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\fundamentals_2\bin\Debug\net6.0\fundamentals_2.dll
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\fundamentals_2\bin\Debug\net6.0\fundamentals_2.pdb
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\fundamentals_2\obj\Debug\net6.0\fundamentals_2.csproj.AssemblyReference.cache
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\fundamentals_2\obj\Debug\net6.0\fundamentals_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\fundamentals_2\obj\Debug\net6.0\fundamentals_2.AssemblyInfoInputs.cache
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\fundamentals_2\obj\Debug\net6.0\fundamentals_2.AssemblyInfo.cs
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\fundamentals_2\obj\Debug\net6.0\fundamentals_2.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\fundamentals_2\obj\Debug\net6.0\fundamentals_2.dll
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\fundamentals_2\obj\Debug\net6.0\refint\fundamentals_2.dll
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\fundamentals_2\obj\Debug\net6.0\fundamentals_2.pdb
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\fundamentals_2\obj\Debug\net6.0\fundamentals_2.genruntimeconfig.cache
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\fundamentals_2\obj\Debug\net6.0\ref\fundamentals_2.dll
