@@ -1,0 +1,15 @@
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\debuggingPractice\bin\Debug\net6.0\debuggingPractice.exe
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\debuggingPractice\bin\Debug\net6.0\debuggingPractice.deps.json
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\debuggingPractice\bin\Debug\net6.0\debuggingPractice.runtimeconfig.json
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\debuggingPractice\bin\Debug\net6.0\debuggingPractice.dll
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\debuggingPractice\bin\Debug\net6.0\debuggingPractice.pdb
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\debuggingPractice\obj\Debug\net6.0\debuggingPractice.csproj.AssemblyReference.cache
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\debuggingPractice\obj\Debug\net6.0\debuggingPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\debuggingPractice\obj\Debug\net6.0\debuggingPractice.AssemblyInfoInputs.cache
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\debuggingPractice\obj\Debug\net6.0\debuggingPractice.AssemblyInfo.cs
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\debuggingPractice\obj\Debug\net6.0\debuggingPractice.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\debuggingPractice\obj\Debug\net6.0\debuggingPractice.dll
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\debuggingPractice\obj\Debug\net6.0\refint\debuggingPractice.dll
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\debuggingPractice\obj\Debug\net6.0\debuggingPractice.pdb
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\debuggingPractice\obj\Debug\net6.0\debuggingPractice.genruntimeconfig.cache
+C:\Users\MSI\Desktop\C-Sharp_stack\language_fundamentals\debuggingPractice\obj\Debug\net6.0\ref\debuggingPractice.dll
