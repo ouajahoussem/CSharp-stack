@@ -1,0 +1,15 @@
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\practice\rideMaker\bin\Debug\net6.0\rideMaker.exe
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\practice\rideMaker\bin\Debug\net6.0\rideMaker.deps.json
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\practice\rideMaker\bin\Debug\net6.0\rideMaker.runtimeconfig.json
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\practice\rideMaker\bin\Debug\net6.0\rideMaker.dll
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\practice\rideMaker\bin\Debug\net6.0\rideMaker.pdb
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\practice\rideMaker\obj\Debug\net6.0\rideMaker.csproj.AssemblyReference.cache
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\practice\rideMaker\obj\Debug\net6.0\rideMaker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\practice\rideMaker\obj\Debug\net6.0\rideMaker.AssemblyInfoInputs.cache
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\practice\rideMaker\obj\Debug\net6.0\rideMaker.AssemblyInfo.cs
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\practice\rideMaker\obj\Debug\net6.0\rideMaker.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\practice\rideMaker\obj\Debug\net6.0\rideMaker.dll
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\practice\rideMaker\obj\Debug\net6.0\refint\rideMaker.dll
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\practice\rideMaker\obj\Debug\net6.0\rideMaker.pdb
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\practice\rideMaker\obj\Debug\net6.0\rideMaker.genruntimeconfig.cache
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\practice\rideMaker\obj\Debug\net6.0\ref\rideMaker.dll
