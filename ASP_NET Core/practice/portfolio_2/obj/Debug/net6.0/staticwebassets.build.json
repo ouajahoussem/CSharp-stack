@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "SKsrIUyC76I68ak1YX6m+VQKJlGXm5BMX9BikhPSKsA=",
+  "Source": "portfolio_2",
+  "BasePath": "_content/portfolio_2",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "portfolio_2\\wwwroot",
+      "Source": "portfolio_2",
+      "ContentRoot": "C:\\Users\\MSI\\Desktop\\C-Sharp_stack\\ASP_NET Core\\practice\\portfolio_2\\wwwroot\\",
+      "BasePath": "_content/portfolio_2",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\MSI\\Desktop\\C-Sharp_stack\\ASP_NET Core\\practice\\portfolio_2\\wwwroot\\css\\style.css",
+      "SourceId": "portfolio_2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSI\\Desktop\\C-Sharp_stack\\ASP_NET Core\\practice\\portfolio_2\\wwwroot\\",
+      "BasePath": "_content/portfolio_2",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\MSI\\Desktop\\C-Sharp_stack\\ASP_NET Core\\practice\\portfolio_2\\wwwroot\\images\\profilepic.jpg",
+      "SourceId": "portfolio_2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSI\\Desktop\\C-Sharp_stack\\ASP_NET Core\\practice\\portfolio_2\\wwwroot\\",
+      "BasePath": "_content/portfolio_2",
+      "RelativePath": "images/profilepic.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\profilepic.jpg"
+    }
+  ]
+}
