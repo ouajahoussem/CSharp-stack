@@ -1,0 +1,15 @@
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\core\gameDeveloper_2\bin\Debug\net6.0\gameDeveloper_2.exe
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\core\gameDeveloper_2\bin\Debug\net6.0\gameDeveloper_2.deps.json
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\core\gameDeveloper_2\bin\Debug\net6.0\gameDeveloper_2.runtimeconfig.json
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\core\gameDeveloper_2\bin\Debug\net6.0\gameDeveloper_2.dll
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\core\gameDeveloper_2\bin\Debug\net6.0\gameDeveloper_2.pdb
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\core\gameDeveloper_2\obj\Debug\net6.0\gameDeveloper_2.csproj.AssemblyReference.cache
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\core\gameDeveloper_2\obj\Debug\net6.0\gameDeveloper_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\core\gameDeveloper_2\obj\Debug\net6.0\gameDeveloper_2.AssemblyInfoInputs.cache
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\core\gameDeveloper_2\obj\Debug\net6.0\gameDeveloper_2.AssemblyInfo.cs
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\core\gameDeveloper_2\obj\Debug\net6.0\gameDeveloper_2.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\core\gameDeveloper_2\obj\Debug\net6.0\gameDeveloper_2.dll
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\core\gameDeveloper_2\obj\Debug\net6.0\refint\gameDeveloper_2.dll
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\core\gameDeveloper_2\obj\Debug\net6.0\gameDeveloper_2.pdb
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\core\gameDeveloper_2\obj\Debug\net6.0\gameDeveloper_2.genruntimeconfig.cache
+C:\Users\MSI\Desktop\C-Sharp_stack\oopWithCsharp\core\gameDeveloper_2\obj\Debug\net6.0\ref\gameDeveloper_2.dll
