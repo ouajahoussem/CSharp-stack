@@ -1,0 +1,19 @@
+@model List<int>
+<div class="text-center">
+    <div class="fs-4 mb-3">
+        <a href="/">Message</a>
+        <span> | </span>
+        <a href="/numbers">Numbers</a>
+        <span> | </span>
+        <a href="/user">User</a>
+        <span> | </span>
+        <a href="/users">Users</a>
+    </div>
+    <div>
+        <h1>Here are some numbers</h1>
+        @foreach (int i in Model)
+        {
+            <p class="fs-4">@i</p>
+        }
+    </div>
+</div>
