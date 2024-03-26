@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "hvMKdCQMFEHvM00ouB5n7nWLzOp+mPd40Kw3SmjDjpI=",
+  "Source": "DojoSurjey",
+  "BasePath": "_content/DojoSurjey",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DojoSurjey\\wwwroot",
+      "Source": "DojoSurjey",
+      "ContentRoot": "C:\\Users\\MSI\\Desktop\\C-Sharp_stack\\ASP_NET Core\\core\\DojoSurjey\\wwwroot\\",
+      "BasePath": "_content/DojoSurjey",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\MSI\\Desktop\\C-Sharp_stack\\ASP_NET Core\\core\\DojoSurjey\\wwwroot\\css\\style.css",
+      "SourceId": "DojoSurjey",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSI\\Desktop\\C-Sharp_stack\\ASP_NET Core\\core\\DojoSurjey\\wwwroot\\",
+      "BasePath": "_content/DojoSurjey",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    }
+  ]
+}

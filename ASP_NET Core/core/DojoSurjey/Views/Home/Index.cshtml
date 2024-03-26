@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/style.css">
+    <title>A Web Page</title>
+</head>
+<body>
+    <form action="process" class="form" method="post">
+        <div class="group">
+        <label for="Name">Your Name:</label>
+        <input type="text" name="Name" id="">
+        </div>
+        <div class="group">
+            <label for="Location"> Dojo Location:</label>
+            <select name="Location" id="">
+                <option value="san jose">San Jose</option>
+                <option value="california">California</option>
+                <option value="new york">New York</option>
+            </select>
+        </div>
+        <div class="group">
+            <label for="FavoriteLanguage"> Favorite Language:</label>
+            <select name="FavoriteLanguage" id="">
+            <option value="c#">C#</option>
+            <option value="mern">Mern</option>
+            <option value="paython">Paython</option>
+            </select>
+        </div>
+        <div class="group">
+            <label for="Comment">Comment:</label>
+            <textarea name="Comment" id="" cols="40" rows="10"></textarea>
+        </div>
+        <input type="submit"  value="Submit" class="submit">
+        
+    </form>
+</body>
+</html>
