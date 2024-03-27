@@ -1,0 +1,55 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.form{
+  width:500px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: rgb(218, 232, 232);
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+.group{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  
+}
+.group input {
+  height: 30px;
+  width: 300px;
+  
+}
+.group select{
+  height: 30px;
+  width: 300px;
+  
+}
+.group label{
+  font-size: 20px;
+}
+.submit{
+  margin-left: 84%;
+  padding: 10px;
+  background-color: rgb(11, 129, 78);
+  font-size: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px;
+  color: white;
+}
