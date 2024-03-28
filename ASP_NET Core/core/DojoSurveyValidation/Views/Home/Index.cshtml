@@ -1,0 +1,54 @@
+﻿﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model Student
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/style.css">
+    <title>A Web Page</title>
+</head>
+
+<body>
+    <form action="/process" class="form" method="post">
+        <div class="group">
+            <label asp-for="Name">Your Name:</label>
+            <input asp-for="Name" id="">
+        </div>
+        <span asp-validation-for="Name"></span>
+        <div class="group">
+            <label asp-for="Location"> Dojo Location:</label>
+            <select asp-for="Location" id="">
+                <option value="">-------</option>
+                <option value="san jose">San Jose</option>
+                <option value="california">California</option>
+                <option value="new york">New York</option>
+            </select>
+        </div>
+        <span asp-validation-for="Location"></span>
+        <div class="group">
+            <label asp-for="FavoriteLanguage"> Favorite Language:</label>
+            <select asp-for="FavoriteLanguage" id="">
+                <option value="">-------</option>
+                <option value="c#">C#</option>
+                <option value="mern">Mern</option>
+                <option value="paython">Paython</option>
+            </select>
+        </div>
+        <span asp-validation-for="FavoriteLanguage"></span>
+        <div class="group">
+            <label asp-for="Comment">Comment:</label>
+            <textarea asp-for="Comment" id="" cols="40" rows="10"></textarea>
+        </div>
+        <span asp-validation-for="Comment"></span>
+        <input type="submit" value="Submit" class="submit">
+
+    </form>
+</body>
+
+</html>
+
+
