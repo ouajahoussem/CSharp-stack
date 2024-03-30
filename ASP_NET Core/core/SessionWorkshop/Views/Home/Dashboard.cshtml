@@ -1,0 +1,30 @@
+﻿<h1>@ViewData["Title"]</h1>
+<div class="d-flex justify-content-between align-items-center">
+
+    <h1 class="display-4">Welcome @Context.Session.GetString("Username")</h1>
+    <form action="/logout" method="post">
+        <input type="submit" value="Logout" class="btn btn-danger align-middle">
+    </form>
+</div>
+<hr>
+<h1 class="text-center">@ViewBag.Num</h1>
+<div class="d-flex  justify-content-center mt-5 gap-5 align-items-center">
+
+<form action="/add" method="post">
+    <input type="submit" value="+ 1" class="btn btn-warning align-middle p-3 col-10 m-5">
+</form>
+
+<form action="/substract" method="post">
+    <input type="submit" value="- 1" class="btn btn-primary align-middle p-3 col-10 m-5">
+</form>
+</div>
+<div class="d-flex justify-content-center  gap-5 align-items-center ">
+
+<form action="/multiply" method="post">
+    <input type="submit" value="* 2" class="btn btn-danger  p-3 col-10 m-5">
+</form>
+
+<form action="/random" method="post">
+    <input type="submit" value="+ Random" class="btn btn-success align-middle p-3 col-10 m-3">
+</form>
+</div>
