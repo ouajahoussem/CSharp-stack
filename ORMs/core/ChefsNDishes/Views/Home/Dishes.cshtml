@@ -1,0 +1,36 @@
+@model Dish
+
+
+
+<div lass="text-center ">
+    <div class="mt-5 mx-auto col-5 fs-4">
+        <a href="/">Chefs</a>
+        |
+        <a href="/dishes">Dishes</a>
+        |
+        <a href="/chefs/new">Add a Chef</a>
+        |
+        <a href="/dishes/new">Add a Dish</a>
+    </div>
+    <h1 class="mt-5 mx-auto col-7"> Yum! Check out our tasty dishes!</h1>
+    <hr>
+    <div>
+        <table class="table table-striped mt-5">
+            <tr>
+                <th>Name</th>
+                <th>Chef</th>
+                <th>Tastiness</th>
+                <th>Calories</th>
+            </tr>
+            @foreach (var d in ViewBag.AllDishes)
+            {
+            <tr>
+                <td>@d.Name</td>
+                <td>@d.Chef.FirstName</td>
+                <td>@d.Tastiness</td>
+                <td>@d.Calories</td>
+            </tr>
+            }
+        </table>
+    </div>
+</div>
