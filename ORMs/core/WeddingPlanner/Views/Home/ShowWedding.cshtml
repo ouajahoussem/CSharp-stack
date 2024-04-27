@@ -1,0 +1,31 @@
+@model Wedding
+
+
+<div class="d-flex justify-content-between mt-5 ">
+    <h1>Welcome @ViewBag.LogedInUser.FirstName! </h1>
+    <div class="fs-4">
+        <a href="/">Home</a>
+        |
+        <a href="weddings/new">Plan a Wedding</a>
+        |
+        <a asp-action="Logout">Logout</a>
+
+    </div>
+</div>
+<hr>
+
+<h1>@Model.WedderOne & @Model.Weddertwo</h1>
+
+<h4 class="mt-5">Date: @Model.Date</h4>
+
+<h3 class="mt-5">Guests Attending:</h3>
+
+@foreach (var g in Model.UserAttending)
+{
+    <ul>
+        <li>@g.UserAsGuest.FirstName @g.UserAsGuest.LastName</li>
+    </ul>
+}
+
+
+

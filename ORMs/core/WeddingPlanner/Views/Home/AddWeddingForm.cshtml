@@ -1,0 +1,39 @@
+@model Wedding
+
+
+<div class="d-flex justify-content-between mt-5 ">
+
+    <h1>Welcome @ViewBag.LogedInUser.FirstName! </h1>
+    <div class="fs-4">
+        <a href="/">Home</a>
+        |
+        <a href="/weddings/new">Plan a Wedding</a>
+        |
+        <a asp-action="Logout">Logout</a>
+
+    </div>
+</div>
+<form asp-action="AddWedding">
+    @* <input type="hidden" asp-for="UserId" value="@currentUserId"> *@
+    <div class="mb-3">
+        <label class="form-label  " asp-for="WedderOne"></label>
+        <input class="form-control " asp-for="WedderOne">
+        <span class="text-danger " asp-validation-for="WedderOne"></span>
+    </div>
+    <div class="mb-3">
+        <label class="form-label  " asp-for="Weddertwo"></label>
+        <input class="form-control " asp-for="Weddertwo">
+        <span class="text-danger " asp-validation-for="Weddertwo"></span>
+    </div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="Date"></label>
+        <input class="form-control " asp-for="Date" asp-format="{MMM/dd/yyyy}">
+        <span class="text-danger " asp-validation-for="Date"></span>
+    </div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="Address"></label>
+        <input class="form-control " asp-for="Address">
+        <span class="text-danger" asp-validation-for="Address"></span>
+    </div>
+    <button class="btn btn-primary">Submit</button>
+</form>

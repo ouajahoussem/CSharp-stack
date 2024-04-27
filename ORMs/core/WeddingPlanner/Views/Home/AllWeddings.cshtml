@@ -1,0 +1,50 @@
+@model List<Wedding>
+
+
+<div class="d-flex justify-content-between mt-5 ">
+    <h1>Welcome @ViewBag.LogedInUser.FirstName! </h1>
+    <div class="fs-4">
+        <a href="/">Home</a>
+        |
+        <a href="weddings/new">Plan a Wedding</a>
+        |
+        <a asp-action="Logout">Logout</a>
+
+    </div>
+</div>
+<hr>
+<div>
+    <table class="table table-striped mt-5">
+        <tr>
+            <th>Wedding Of </th>
+            <th>Date</th>
+            <th>Guest Count</th>
+            <th>Action</th>
+        </tr>
+        @foreach (Wedding w in Model)
+        {
+            <tr>
+                <td><a asp-action="ShowWedding" asp-route-userId="@ViewBag.LogedInUser.UserId" asp-route-weddingId=@w.WeddingId> @w.WedderOne & @w.Weddertwo</a></td>
+                <td>@w.Date</td>
+                <td>@w.UserAttending.Count</td>
+                <td>
+                    @if (w.UserId == ViewBag.LogedInUser.UserId)
+                    {
+                        <a asp-action="DeleteWedd" asp-route-userId="@ViewBag.LogedInUser.UserId" asp-route-weddingId=@w.WeddingId>Delete</a>
+                    }
+                    else
+                        if(@w.UserAttending.Any(s => s.UserId == @Context.Session.GetInt32("UserId")))
+                        { 
+                            <a asp-action="GuestUnRSVP" asp-route-userId="@ViewBag.LogedInUser.UserId" asp-route-weddingId=@w.WeddingId >Un-RSVP</a>
+                        }
+                        else{
+                            <a asp-action="GuestRSVP" asp-route-userId="@ViewBag.LogedInUser.UserId" asp-route-weddingId=@w.WeddingId >RSVP</a>
+                        }
+                </td>
+
+            </tr>
+
+        }
+
+    </table>
+</div>
