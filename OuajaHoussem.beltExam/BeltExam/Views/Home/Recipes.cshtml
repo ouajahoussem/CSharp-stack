@@ -1,0 +1,83 @@
+@{
+    int currentUserId = 0;
+    if (Context.Session.GetInt32("userId") != null)
+    {
+        currentUserId = (int)Context.Session.GetInt32("userId")!;
+    }
+}
+
+
+
+@model List<Recipe>
+
+
+<div class="d-flex justify-content-between mt-5 fs-4 ">
+    <div class="d-flex gap-5">
+        <a href="/recipes">5 Ingredients</a>
+        <a href="/recipes/new">Add a Recipe</a>
+    </div>
+    <div>
+        <a asp-action="Logout">Logout</a>
+    </div>
+</div>
+<hr>
+<div class="text-center d-flex justify-content-around">
+    <div>
+
+        <h1>All Recipes</h1>
+        @foreach (Recipe r in Model)
+        {
+            <div class="d-flex gap-2 fs-5">
+                <a asp-action="ShowRecipe" asp-route-userId="@ViewBag.LogedInUser.UserId"
+                    asp-route-recipeId=@r.RecipeId>@r.Title</a>
+                <p class="text-capitalize"> by @r.Reciper.FirstName. @r.Reciper.LastName[0]</p>
+                @if (r.UserId == ViewBag.LogedInUser.UserId)
+                {
+                    <a asp-action="EditRecipe" asp-route-userId="@ViewBag.LogedInUser.UserId"
+                        asp-route-recipeId=@r.RecipeId>Edit</a>
+                }
+            </div>
+            <div class="d-flex gap-3">
+
+                <p class="text-success fw-bold ">@(r.Vegetarian == true ? "Vegetarian" : "")</p>
+                <p class="text-success fw-bold ">@(r.GlutenFree == true ? "Gluten Free" : "")</p>
+            </div>
+
+        }
+    </div>
+    <div>
+    <h1>Recipes You've Rated</h1>
+        
+    
+    @if (currentUserId != null)
+    {
+        
+        @foreach (var recipe in Model)
+        {
+            <ul>
+                    <li >
+                        @foreach (var rate in recipe.UserWhoRated)
+                        {
+                            <ul>
+                                    <li class="text-capitalize">
+                                        <span class="fs-5 ">@recipe.Title by @rate.UserRating.FirstName. @rate.UserRating.LastName[0]</span> 
+                                        
+                                        <form method="post" asp-action="DeleteRate" asp-route-userId="@ViewBag.LogedInUser.UserId">
+                                            <input type="hidden" name="RateId" value="@rate.RateId" />
+                                            <input type="submit" value="Remove Rating"></input>
+                                        </form>
+                                    </li>
+                            </ul>
+                        }
+                    </li>
+            </ul>
+        }
+    }
+    
+
+    
+
+
+
+    </div>
+</div>

@@ -1,8 +1,8 @@
 public class Enemy : Attack
 {
     public string EnemyName;
-    protected int Health = 100;
-    public int _Health {get {return Health;}}
+    public int Health = 100;
+    
 
 
 
@@ -14,7 +14,7 @@ public class Enemy : Attack
     {
         base.ShowInfo();
         Console.WriteLine($"Name: {EnemyName}");
-        Console.WriteLine($"Health: {_Health}");
+        Console.WriteLine($"Health: {Health}");
         // Console.WriteLine($"Attack Name: {Name}");
         // Console.WriteLine($"Damage: {DamageAmount}");
         // Console.WriteLine("-------");

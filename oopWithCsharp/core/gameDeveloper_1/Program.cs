@@ -11,6 +11,10 @@ Enemy sett = new Enemy("Sett", "Punch",5);
 Enemy  draven = new Enemy("Draven", "Throw",10);
 brand.performattack(draven);
 draven.performattack(brand);
+MeleeFighter voli = new MeleeFighter("Voli");
+
+
+voli.showInfo();
 
 
 
@@ -27,12 +31,15 @@ foreach (Enemy A in enemies)
 {
     
     Console.WriteLine($"{A}-{A.EnemyName}"  );
-    Console.WriteLine("Health: " + A._Health );
+    Console.WriteLine("Health: " + A.Health );
     Console.WriteLine("Attack Name: " + A.Name );
     Console.WriteLine("Damage: " + A.DamageAmount);
     Console.WriteLine("********");
     
 }
+voli.RageAttack(brand);
+voli.RageAttack(sett);
+
 
 // brand.showInfo();
 // sett.showInfo();

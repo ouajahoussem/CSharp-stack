@@ -1,0 +1,16 @@
+@model User
+
+
+<div class="d-flex flex-row justify-content-end p-1 gap-4">
+    <a href="/bright_ideas" class="fs-4">Bright Ideas</a>
+    <a asp-action="Logout" class="fs-4"> Logout </a>
+</div>
+<div class="mt-4">
+
+    <h3 class="text-capitalize">Name: @Model.Name </h3>
+    <h3 class="text-capitalize">Alias: @Model.Alias</h3>
+    <h3>Email: @Model.Email</h3>
+</div>
+<hr>
+<h5>Total Number of Posts: @Model.IdeasPosted.Count</h5>
+<h5>Total Number of Likes: @Model.PostsLiked.Count</h5>

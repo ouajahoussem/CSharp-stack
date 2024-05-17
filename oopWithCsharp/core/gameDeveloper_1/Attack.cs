@@ -1,7 +1,7 @@
 using System.Reflection.Metadata.Ecma335;
 using System.Runtime.CompilerServices;
 
-public class Attack 
+public  class Attack 
 {
     public string Name {get;set;}
     public int DamageAmount {get;set;}

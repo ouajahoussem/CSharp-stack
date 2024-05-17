@@ -1,0 +1,13 @@
+@model Post
+
+
+
+
+
+<form asp-action="CreatePost">
+    <div class="d-flex gap-2 mt-5 col-6 mx-auto">
+        <input asp-for="Idea" placeholder="Post something witty here..." class="form-control">
+        <span asp-validation-for="Idea" class="text-danger" ></span>
+        <input type="submit" value="Idea!" class="btn btn-info">
+    </div>
+</form>

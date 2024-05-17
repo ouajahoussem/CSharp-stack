@@ -1,0 +1,56 @@
+@{
+    int currentUserId = 0;
+    if (Context.Session.GetInt32("userId") != null)
+    {
+        currentUserId = (int)Context.Session.GetInt32("userId")!;
+    }
+}
+
+@model Recipe
+<div class="d-flex justify-content-between mt-5 fs-4 ">
+    <div class="d-flex gap-5">
+        <a href="/recipes">5 Ingredients</a>
+        <a href="/recipes/new">Add a Recipe</a>
+    </div>
+    <div>
+        <a asp-action="Logout">Logout</a>
+    </div>
+</div>
+<hr>
+<div class=" mt-5 d-flex">
+
+    <div>
+
+        <h1>@Model.Title</h1>
+        <h3 class="text-capitalize">By @Model.Reciper.FirstName. @Model.Reciper.LastName[0]</h3>
+        <p>@Model.UserWhoRated.Count people have rated this</p>
+
+
+        @if (Model.UserWhoRated.Any(u => u.UserId == currentUserId))
+        {
+            <p></p>
+        }
+        else
+        {
+            <form asp-action="RecipeRate" asp-route-userId="@ViewBag.LogedInUser.UserId" asp-route-recipeId=@Model.RecipeId>
+                <input type="number" max="5" min="0">
+                <input type="submit" value="Rate" class="btn btn-warning">
+            </form>
+            
+        }
+
+
+        <h4>Ingredient 1: @Model.IngredientOne</h4>
+        <h4>Ingredient 2: @Model.IngredientTwo</h4>
+        <h4>Ingredient 3: @Model.IngredientThree</h4>
+        <h4>Ingredient 4: @Model.IngredientFour</h4>
+        <h4>Ingredient 5: @Model.IngredientFive</h4>
+
+        <p class="text-success fw-bold ">@(Model.Vegetarian == true ? "Vegetarian" : "Not vegetarian")</p>
+        <p class="text-success fw-bold ">@(Model.GlutenFree == true ? "Gluten Free" : "Not gluten Free")</p>
+    </div>
+    <div class="mx-auto">
+        <h5>Introductions:</h5>
+        <p>@Model.Introductions</p>
+    </div>
+</div>
